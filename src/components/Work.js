@@ -5,8 +5,8 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants'
 
 import Img1 from '../assets/code.png';
-// import Img2 from '../assets/code.png';
-// import Img3 from '../assets/D linkzz.jpg';
+import Img2 from '../assets/code2.png';
+import Img3 from '../assets/code3.png';
 
 const Work = () => {
   return (
@@ -35,7 +35,7 @@ const Work = () => {
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               <img 
                 className='group-hover:scale-125 transition-all duration-500'
-                src={Img1} alt='' />
+                src={Img2} alt='' />
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>Full Stack</span>
               </div>
@@ -66,7 +66,7 @@ const Work = () => {
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               <img 
                 className='group-hover:scale-125 transition-all duration-500'
-                src={Img1} alt='' />
+                src={Img3} alt='' />
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>Full Stack</span>
               </div>
